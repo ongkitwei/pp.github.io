@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+#ul-heading{
+    list-style-type: none;
+    font-family: sans-serif;
+    padding-right: 170px;
+    
+}
+
+
+
+
+
+ul a{
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+    transition-delay: 0.1s;
+    transition-duration: 0.3s;
+}
+
+
+
+
+ul a:hover{
+    color: #ee0000;
+}
+
+
+
+#ul-name{
+    padding-left:200px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:40px;
+}
+
+
+#ul-name, #ul-heading{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+body{
+    background-image: url("photos/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+
+span span{
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+#linkedin-picture{
+    width: 100px;
+
+}
+
+
+
+
+
